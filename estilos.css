@@ -1,0 +1,162 @@
+.portadaHome{
+    background-image: url(img/portadahongos.jpg);
+    width:0 auto ;
+    height: 400px;
+    background-position: center;
+}
+.portadaContacto{
+    background-image: url(img/portadaContacto.jpg);
+    width:0 auto ;
+    height: 400px;
+    background-position: center;
+}
+.portadaServicios{
+    background-image: url(img/portadaServicios.jpg);
+    width:0 auto ;
+    height: 400px;
+    background-position: center;
+}
+.portadaGaleria{
+    background-image: url(img/portadaGaleria.jpg);
+    width:0 auto ;
+    height: 400px;
+    background-position: center;
+}
+.portadaCursos{
+    background-image: url(img/portadaCursos.jpg);
+    width:0 auto ;
+    height: 400px;
+    background-position: center;
+}
+ul li a{
+    text-decoration: none;
+    color:snow;
+}
+ul li{
+     list-style: none;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    transform: scale(1);
+    transition: all linear .2s;
+}
+h1:hover{
+    transform: scale(1.4);
+}
+.verde{
+    
+    color: #1bb21b;
+}
+h2,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+.verde:hover{
+    text-decoration: none;
+    color: #2e90a2;
+}
+.redes{
+    font-size: 2rem;
+}
+a[href*=youtube]:hover{
+    color:#dd1212;
+}
+a[href*=instagram]:hover{
+    color:rgba(184, 34, 196, 0.8);
+}
+a[href*=twitter]:hover{
+    color:#12bedd;
+}
+footer a[href*=galeria]:hover{
+    color:#e61256;
+}
+footer a[href*=index]:hover{
+    color:#e61256;
+}
+footer a[href*=servicios]:hover{
+    color:#e61256;
+}
+footer a[href*=contacto]:hover{
+    color:#e61256;
+}
+footer a[href*=cursos]:hover{
+    color:#e61256;
+}
+footer a[href*=conocenos]:hover{
+    color:#e61256;
+}
+.autor:hover{
+    color:#e61256;
+}
+address a{
+    color:#a6d9c2;
+}
+address a:hover{
+    text-decoration: none;
+    color:#e8adc0;
+}
+address a:active{
+    color:#0eb267;
+}
+.contacto{
+    background-color: rgba(173, 148, 166, 0.67);
+}
+.formulario{
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+}
+.enviar{
+    display: block;
+    margin: auto;
+    
+}
+.enviar:hover{
+    background-color: #bcb4b4;
+    color:#212c27;
+}
+.enviar:active{
+    background-color: rgba(141, 77, 123, 0.67);
+    color: #d3cccc;
+}
+#mapa{
+    display:none;
+}
+.centrado{
+    padding-top: 30px;
+    padding-left: 0;
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)) , url(img/footer2.jpg);
+    background-position: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.footer {
+    text-decoration: none!important;
+}
+foorter a:hover{}
+@media(min-width:992px){
+    #mapa
+    {
+        display: block;
+        margin:auto;
+    }
+.portadaHome{
+    height: 600px;
+    
+}
+.portadaContacto{
+    height: 600px;
+}
+.portadaServicios{
+    height: 600px;
+}
+.portadaGaleria{
+    height: 600px;
+}
+.portadaCursos{
+    height: 600px;
+}
+   }
+
